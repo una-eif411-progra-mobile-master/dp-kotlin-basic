@@ -25,10 +25,8 @@ class NewsletterDisplayListenerTest {
     @Test
     fun `should notify both displays with the new course opened`() {
         val monthlyNewsletter = UniversityNewsletter()
-        val mobileDisplay = NewsletterDisplayListener(displayName = "Teléfono", courseName = "Progra Apps", courseMax = 30,
-            newsletter = monthlyNewsletter)
-        val webDisplay = NewsletterDisplayListener(displayName = "Pagina Web", courseName = "Progra Web", courseMax = 15,
-            newsletter = monthlyNewsletter)
+        val mobileDisplay = NewsletterDisplayListener(displayName = "Teléfono", newsletter = monthlyNewsletter)
+        val webDisplay = NewsletterDisplayListener(displayName = "Pagina Web", newsletter = monthlyNewsletter)
 
         monthlyNewsletter.subscribe(mobileDisplay)
         monthlyNewsletter.subscribe(webDisplay)

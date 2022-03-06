@@ -1,5 +1,9 @@
 package design.patterns.observer
 
+/**
+ * PUBLISHER
+ * Implementation of the Publisher interface
+ */
 internal data class UniversityNewsletter(
     private val subscribers: ArrayList<NewsletterListener> = arrayListOf(),
     private val courseName: String = "",

@@ -1,5 +1,9 @@
 package design.patterns.observer
 
+/**
+ * SUBSCRIBER
+ * This class is the Subscriber and Display
+ */
 internal data class NewsletterDisplayListener(
     private val displayName: String = "",
     private val courseName: String = "",
