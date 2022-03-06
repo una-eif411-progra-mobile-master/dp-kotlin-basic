@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/mguzmana/GitHub/dp-kotlin-basic/src/main</OriginalElement>
+  <nodes>
+    <node x="-400.0" y="142.0">design.patterns.observer.UniversityNewsletter</node>
+    <node x="441.0" y="-5.0">design.patterns.observer.Display</node>
+    <node x="137.0" y="-5.0">design.patterns.observer.NewsletterListener</node>
+    <node x="-316.5" y="-5.0">design.patterns.observer.Newsletter</node>
+    <node x="174.25" y="98.0">design.patterns.observer.NewsletterDisplayListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="design.patterns.observer.NewsletterDisplayListener" target="design.patterns.observer.NewsletterListener" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="408.25" y="73.0" />
+      <point x="279.0" y="73.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="design.patterns.observer.NewsletterDisplayListener" target="design.patterns.observer.Display" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="408.25" y="73.0" />
+      <point x="537.5" y="73.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="design.patterns.observer.UniversityNewsletter" target="design.patterns.observer.Newsletter" relationship="REALIZATION">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="346.5" y="327.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

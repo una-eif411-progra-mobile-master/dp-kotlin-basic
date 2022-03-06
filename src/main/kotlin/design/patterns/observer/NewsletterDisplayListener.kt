@@ -8,7 +8,7 @@ internal data class NewsletterDisplayListener(
     private val displayName: String = "",
     private val courseName: String = "",
     private val courseMax: Int = 0,
-    private val newsletter: UniversityNewsletter
+    private val newsletter: UniversityNewsletter,
 ) :  Display, NewsletterListener {
 
     override fun update(courseName: String, courseMax: Int): NewsletterDisplayListener {
