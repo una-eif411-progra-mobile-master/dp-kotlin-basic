@@ -1,3 +1,3 @@
 
-rootProject.name = "dp-basic"
+rootProject.name = "dp-kotlin-basic"
 
