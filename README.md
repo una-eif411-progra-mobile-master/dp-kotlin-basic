@@ -4,4 +4,5 @@ A design pattern is a general repeatable solution to a commonly occurring probl
 
 
 ## List of design patterns in this example
-1. Observer [Behavioral Design Pattern]
+1. Observer
+2. Singleton
