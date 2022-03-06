@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/mguzmana/GitHub/dp-kotlin-basic/src/main/kotlin/design/patterns/singleton/SingletonFunctionality.kt</OriginalElement>
+  <nodes>
+    <node x="-239.0" y="-157.0">design.patterns.design.patterns.singleton.Singleton</node>
+    <node x="-214.0" y="-31.0">design.patterns.design.patterns.singleton.MyClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="design.patterns.design.patterns.singleton.MyClass" target="design.patterns.design.patterns.singleton.Singleton" relationship="DEPENDENCY">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="84.5" y="89.5" />
+  <SelectedNodes>
+    <node>design.patterns.design.patterns.singleton.Singleton</node>
+    <node>design.patterns.design.patterns.singleton.MyClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
