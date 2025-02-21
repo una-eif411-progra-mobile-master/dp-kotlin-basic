@@ -150,13 +150,6 @@ The project includes comprehensive unit tests for both design patterns:
 - Logging services
 - Cache implementations
 
-## Contributing
-Feel free to contribute to this project by:
-1. Creating issues for bugs or suggestions
-2. Submitting pull requests with improvements
-3. Adding documentation or examples
-4. Adding new design pattern implementations
-
 ## License
 Academic and Educational License
 
